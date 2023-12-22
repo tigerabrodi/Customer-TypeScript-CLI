@@ -1,13 +1,14 @@
 // - [x] Create a new project
-// - [ ] Display menu with options
-// - [ ] List customer names and emails
+// - [x] Display menu with options
+// - [x] List customer names and emails
 // - [ ] Display customer details -> User inputs customer id, then display "Customer ID: details"
 // - [ ] Total amount spent by each customer: "customer ID: Show total amount"
 // - [ ] Most recent purchase for each customer: "Input customer ID: Show most recent purchase name"
 
-import dataJSON from './data.json'
-
 import { select } from '@inquirer/prompts'
+
+import dataJSON from './data.json'
+import { displayCustomerDetails } from './displayCustomerDetails'
 import { listCustomers } from './listCustomers'
 
 export type PurchaseHistory = {
@@ -28,7 +29,7 @@ const customers = dataJSON as Array<Customer>
 
 async function displayMenu() {
   const answer = await select({
-    message: 'Select a package manager',
+    message: 'Select an option',
     choices: [
       {
         name: 'list',
@@ -56,14 +57,14 @@ async function displayMenu() {
   return answer
 }
 
-function handleAnswer(answer: string) {
+async function handleAnswer(answer: string) {
   switch (answer) {
     case 'list':
       listCustomers(customers)
       break
-    // case 'details':
-    //   displayCustomerDetails()
-    //   break
+    case 'details':
+      await displayCustomerDetails(customers)
+      break
     // case 'total':
     //   totalAmountSpent()
     //   break
@@ -77,7 +78,7 @@ function handleAnswer(answer: string) {
 
 async function main() {
   const answer = await displayMenu()
-  handleAnswer(answer)
+  await handleAnswer(answer)
 }
 
 main()

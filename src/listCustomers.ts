@@ -1,4 +1,5 @@
-import { Customer } from '.'
+import type { Customer } from '.'
+
 import { BREAKPOINT } from './constants'
 
 export function listCustomers(customers: Array<Customer>) {
