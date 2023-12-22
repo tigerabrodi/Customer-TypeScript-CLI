@@ -8,14 +8,15 @@
 import dataJSON from './data.json'
 
 import { select } from '@inquirer/prompts'
+import { listCustomers } from './listCustomers'
 
-type PurchaseHistory = {
+export type PurchaseHistory = {
   item: string
   amount: number
   purchaseDate: string
 }
 
-type Customer = {
+export type Customer = {
   id: string
   name: string
   email: string
@@ -52,9 +53,13 @@ async function displayMenu() {
     ],
   })
 
+  return answer
+}
+
+function handleAnswer(answer: string) {
   switch (answer) {
     case 'list':
-      // listCustomers()
+      listCustomers(customers)
       break
     // case 'details':
     //   displayCustomerDetails()
@@ -71,7 +76,8 @@ async function displayMenu() {
 }
 
 async function main() {
-  await displayMenu()
+  const answer = await displayMenu()
+  handleAnswer(answer)
 }
 
 main()
