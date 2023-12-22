@@ -1,6 +1,5 @@
 import { Customer } from '.'
-
-const BREAKPOINT = '\n'
+import { BREAKPOINT } from './constants'
 
 export function listCustomers(customers: Array<Customer>) {
   console.log(
