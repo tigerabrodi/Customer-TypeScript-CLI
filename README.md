@@ -38,4 +38,4 @@ But if I was to write tests for this, direction to take:
 - Unit test the functions
 - Integration test the CLI tool
 
-Integration testing the CLI tool is a bit tricky. Doing a quick research, we could use `child_process` to spawn a new process and test the CLI tool with Chai and Mocha for example
+Integration testing the CLI tool is much easier than I thought lol, they got a package for it: https://github.com/SBoudrias/Inquirer.js/tree/master/packages/testing
