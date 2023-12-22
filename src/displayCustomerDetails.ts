@@ -12,6 +12,7 @@ export async function displayCustomerDetails(customers: Array<Customer>) {
 
     if (!customer) {
       console.log('Customer not found')
+      continue
     } else {
       // Display the customer details
       console.log(`Name: ${customer.name}`)

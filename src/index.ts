@@ -1,7 +1,7 @@
 // - [x] Create a new project
 // - [x] Display menu with options
 // - [x] List customer names and emails
-// - [ ] Display customer details -> User inputs customer id, then display "Customer ID: details"
+// - [x] Display customer details -> User inputs customer id, then display "Customer ID: details"
 // - [ ] Total amount spent by each customer: "customer ID: Show total amount"
 // - [ ] Most recent purchase for each customer: "Input customer ID: Show most recent purchase name"
 
@@ -11,7 +11,7 @@ import { select } from '@inquirer/prompts'
 import dataJSON from './data.json'
 import { displayCustomerDetails } from './displayCustomerDetails'
 import { listCustomers } from './listCustomers'
-import { totalAmountSpentPerCustomer } from './totalAmountSpent'
+import { totalAmountSpentPerCustomer } from './totalAmountSpentPerCustomer'
 
 export type PurchaseHistory = {
   item: string
@@ -34,22 +34,22 @@ async function displayMenu() {
     message: 'Select an option',
     choices: [
       {
-        name: 'list',
+        name: 'List customers',
         value: 'list',
         description: 'List customer names and emails',
       },
       {
-        name: 'details',
+        name: 'Detailed customer information',
         value: 'details',
         description: 'Display customer details',
       },
       {
-        name: 'total',
+        name: 'Total amount',
         value: 'total',
         description: 'Total amount spent by each customer',
       },
       {
-        name: 'recent',
+        name: 'Recent purchase',
         value: 'recent',
         description: 'Most recent purchase for each customer',
       },
