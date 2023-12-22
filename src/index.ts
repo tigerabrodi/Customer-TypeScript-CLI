@@ -7,9 +7,11 @@
 
 import { select } from '@inquirer/prompts'
 
+// in the real world, this would be an API call to get the data/customers
 import dataJSON from './data.json'
 import { displayCustomerDetails } from './displayCustomerDetails'
 import { listCustomers } from './listCustomers'
+import { totalAmountSpentPerCustomer } from './totalAmountSpent'
 
 export type PurchaseHistory = {
   item: string
@@ -65,9 +67,9 @@ async function handleAnswer(answer: string) {
     case 'details':
       await displayCustomerDetails(customers)
       break
-    // case 'total':
-    //   totalAmountSpent()
-    //   break
+    case 'total':
+      totalAmountSpentPerCustomer(customers)
+      break
     // case 'recent':
     //   mostRecentPurchase()
     //   break
