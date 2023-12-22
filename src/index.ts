@@ -1,10 +1,3 @@
-// - [x] Create a new project
-// - [x] Display menu with options
-// - [x] List customer names and emails
-// - [x] Display customer details -> User inputs customer id, then display "Customer ID: details"
-// - [x] Total amount spent by each customer: "customer ID: Show total amount"
-// - [ ] Most recent purchase for each customer: "Input customer ID: Show most recent purchase name"
-
 import { select } from '@inquirer/prompts'
 
 // in the real world, this would be an API call to get the data/customers
