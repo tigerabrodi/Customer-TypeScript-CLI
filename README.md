@@ -11,6 +11,14 @@ TypeScript CLI tool that lets non technical people analyze customer data.
 - [x] Total amount spent by each customer -> Input customer ID -> Show total amount
 - [x] Most recent purchase for each customer -> Input customer ID -> Show most recent purchase
 
+## Run it
+
+Clone it.
+
+`npm install`.
+
+`npm run execute` to run the CLI tool.
+
 ## Background information
 
 I wanted to build a CLI tool to see how it is. Never done one as a side project.
@@ -28,3 +36,6 @@ No testing included.
 But if I was to write tests for this, direction to take:
 
 - Unit test the functions
+- Integration test the CLI tool
+
+Integration testing the CLI tool is a bit tricky. Doing a quick research, we could use `child_process` to spawn a new process and test the CLI tool with Chai and Mocha for example

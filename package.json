@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "execute": "ts-node ./src/index.ts",
-    "test": "vitest"
+    "execute": "ts-node ./src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +16,7 @@
     "eslint": "^8.55.0",
     "eslint-plugin-import": "^2.29.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
-    "vitest": "^1.0.4"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.3.0",
