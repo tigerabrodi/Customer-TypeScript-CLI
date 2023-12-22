@@ -2,7 +2,7 @@
 // - [x] Display menu with options
 // - [x] List customer names and emails
 // - [x] Display customer details -> User inputs customer id, then display "Customer ID: details"
-// - [ ] Total amount spent by each customer: "customer ID: Show total amount"
+// - [x] Total amount spent by each customer: "customer ID: Show total amount"
 // - [ ] Most recent purchase for each customer: "Input customer ID: Show most recent purchase name"
 
 import { select } from '@inquirer/prompts'
@@ -11,6 +11,7 @@ import { select } from '@inquirer/prompts'
 import dataJSON from './data.json'
 import { displayCustomerDetails } from './displayCustomerDetails'
 import { listCustomers } from './listCustomers'
+import { mostRecentPurchaseOfEachCustomer } from './mostRecentPurchaseOfEachCustomer'
 import { totalAmountSpentPerCustomer } from './totalAmountSpentPerCustomer'
 
 export type PurchaseHistory = {
@@ -70,9 +71,9 @@ async function handleAnswer(answer: string) {
     case 'total':
       totalAmountSpentPerCustomer(customers)
       break
-    // case 'recent':
-    //   mostRecentPurchase()
-    //   break
+    case 'recent':
+      mostRecentPurchaseOfEachCustomer(customers)
+      break
     default:
       break
   }

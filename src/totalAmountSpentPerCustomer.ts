@@ -15,6 +15,6 @@ export function totalAmountSpentPerCustomer(customers: Array<Customer>) {
   })
 
   return totalAmountSpentPerCustomer.forEach((customer) =>
-    console.log(`${customer.name} - ${customer.totalAmountSpent}`)
+    console.log(`${customer.name} - ${customer.totalAmountSpent}$`)
   )
 }

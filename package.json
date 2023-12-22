@@ -12,15 +12,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
-    "vitest": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.55.0",
-    "eslint-plugin-import": "^2.29.0"
+    "eslint-plugin-import": "^2.29.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
   },
   "dependencies": {
-    "@inquirer/prompts": "^3.3.0"
+    "@inquirer/prompts": "^3.3.0",
+    "date-fns": "^3.0.6"
   }
 }
