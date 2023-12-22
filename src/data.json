@@ -1,0 +1,233 @@
+[
+  {
+    "id": "c1001",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "registrationDate": "2021-05-12T07:20:50.52Z",
+    "purchaseHistory": [
+      {
+        "item": "Laptop",
+        "amount": 1200,
+        "purchaseDate": "2021-06-15T10:30:20.00Z"
+      },
+      {
+        "item": "Headphones",
+        "amount": 150,
+        "purchaseDate": "2021-07-04T11:00:10.00Z"
+      },
+      {
+        "item": "Smartphone",
+        "amount": 800,
+        "purchaseDate": "2021-08-20T14:45:30.00Z"
+      },
+      {
+        "item": "Tablet",
+        "amount": 400,
+        "purchaseDate": "2021-09-10T09:15:25.00Z"
+      },
+      {
+        "item": "Monitor",
+        "amount": 300,
+        "purchaseDate": "2021-10-05T16:55:40.00Z"
+      }
+    ]
+  },
+  {
+    "id": "c1002",
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "registrationDate": "2020-03-18T15:45:30.45Z",
+    "purchaseHistory": [
+      {
+        "item": "Camera",
+        "amount": 500,
+        "purchaseDate": "2020-05-18T14:20:30.00Z"
+      },
+      {
+        "item": "Printer",
+        "amount": 250,
+        "purchaseDate": "2020-06-12T12:10:15.00Z"
+      },
+      {
+        "item": "External Hard Drive",
+        "amount": 120,
+        "purchaseDate": "2020-08-05T09:30:50.00Z"
+      },
+      {
+        "item": "Keyboard",
+        "amount": 60,
+        "purchaseDate": "2020-09-22T17:40:05.00Z"
+      },
+      {
+        "item": "Mouse",
+        "amount": 30,
+        "purchaseDate": "2020-11-14T13:25:18.00Z"
+      }
+    ]
+  },
+  {
+    "id": "c1003",
+    "name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "registrationDate": "2019-12-01T11:10:40.30Z",
+    "purchaseHistory": [
+      {
+        "item": "Smart TV",
+        "amount": 800,
+        "purchaseDate": "2020-01-05T09:30:20.00Z"
+      },
+      {
+        "item": "Game Console",
+        "amount": 400,
+        "purchaseDate": "2020-02-20T14:15:45.00Z"
+      },
+      {
+        "item": "Wireless Router",
+        "amount": 80,
+        "purchaseDate": "2020-03-12T16:40:10.00Z"
+      },
+      {
+        "item": "Tablet",
+        "amount": 300,
+        "purchaseDate": "2020-04-25T12:55:30.00Z"
+      },
+      {
+        "item": "Headphones",
+        "amount": 150,
+        "purchaseDate": "2020-05-30T10:20:22.00Z"
+      }
+    ]
+  },
+  {
+    "id": "c1004",
+    "name": "David Wilson",
+    "email": "david@example.com",
+    "registrationDate": "2022-02-28T08:15:55.15Z",
+    "purchaseHistory": [
+      {
+        "item": "Laptop",
+        "amount": 1200,
+        "purchaseDate": "2022-03-15T11:30:40.00Z"
+      },
+      {
+        "item": "Smartphone",
+        "amount": 800,
+        "purchaseDate": "2022-04-10T09:45:15.00Z"
+      },
+      {
+        "item": "Monitor",
+        "amount": 300,
+        "purchaseDate": "2022-05-22T14:10:35.00Z"
+      },
+      {
+        "item": "Keyboard",
+        "amount": 60,
+        "purchaseDate": "2022-06-18T12:05:28.00Z"
+      },
+      {
+        "item": "Mouse",
+        "amount": 30,
+        "purchaseDate": "2022-07-03T15:20:50.00Z"
+      }
+    ]
+  },
+  {
+    "id": "c1005",
+    "name": "Eva Garcia",
+    "email": "eva@example.com",
+    "registrationDate": "2021-09-08T13:55:20.40Z",
+    "purchaseHistory": [
+      {
+        "item": "Camera",
+        "amount": 500,
+        "purchaseDate": "2021-10-10T14:20:15.00Z"
+      },
+      {
+        "item": "Printer",
+        "amount": 250,
+        "purchaseDate": "2021-11-05T10:10:30.00Z"
+      },
+      {
+        "item": "External Hard Drive",
+        "amount": 120,
+        "purchaseDate": "2021-12-22T09:35:55.00Z"
+      },
+      {
+        "item": "Game Console",
+        "amount": 400,
+        "purchaseDate": "2022-01-15T12:45:40.00Z"
+      },
+      {
+        "item": "Wireless Router",
+        "amount": 80,
+        "purchaseDate": "2022-02-08T17:30:20.00Z"
+      }
+    ]
+  },
+  {
+    "id": "c1006",
+    "name": "Frank Davis",
+    "email": "frank@example.com",
+    "registrationDate": "2022-10-15T09:35:45.60Z",
+    "purchaseHistory": [
+      {
+        "item": "Smartphone",
+        "amount": 800,
+        "purchaseDate": "2022-11-12T10:25:35.00Z"
+      },
+      {
+        "item": "Tablet",
+        "amount": 400,
+        "purchaseDate": "2022-12-05T11:40:45.00Z"
+      },
+      {
+        "item": "Headphones",
+        "amount": 150,
+        "purchaseDate": "2023-01-20T14:15:30.00Z"
+      },
+      {
+        "item": "Monitor",
+        "amount": 300,
+        "purchaseDate": "2023-02-18T15:30:20.00Z"
+      },
+      {
+        "item": "Keyboard",
+        "amount": 60,
+        "purchaseDate": "2023-03-10T12:45:10.00Z"
+      }
+    ]
+  },
+  {
+    "id": "c1007",
+    "name": "Grace Wilson",
+    "email": "grace@example.com",
+    "registrationDate": "2023-01-10T14:50:35.75Z",
+    "purchaseHistory": [
+      {
+        "item": "Camera",
+        "amount": 500,
+        "purchaseDate": "2023-02-15T09:20:15.00Z"
+      },
+      {
+        "item": "Printer",
+        "amount": 250,
+        "purchaseDate": "2023-03-08T11:10:25.00Z"
+      },
+      {
+        "item": "External Hard Drive",
+        "amount": 120,
+        "purchaseDate": "2023-04-10T10:35:40.00Z"
+      },
+      {
+        "item": "Game Console",
+        "amount": 400,
+        "purchaseDate": "2023-05-20T12:25:30.00Z"
+      },
+      {
+        "item": "Wireless Router",
+        "amount": 80,
+        "purchaseDate": "2023-06-18T14:45:50.00Z"
+      }
+    ]
+  }
+]
